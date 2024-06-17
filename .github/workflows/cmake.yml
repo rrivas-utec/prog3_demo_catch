@@ -38,4 +38,4 @@ jobs:
 
       - name: Catch Test
         working-directory: ${{github.workspace}}/build/test
-        run: ./demo_test --verbosity=high --list-tests --list-tags --list-reporters --list-listeners --durations yes
+        run: ./demo_test --verbosity --list-tests --list-tags --reporter console --durations yes
