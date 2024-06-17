@@ -17,3 +17,8 @@ C
 test/main.cpp,8\9\89d883c5ffcc27128b66b532ee740f27a5531e90
 F
 test/test_1/test_1.cpp,2\4\24d3c4d56e1738d1dad4db5802aecfde2fc311e9
+K
+.github/workflows/cmake.yml,9\a\9ae3f8f5993cde39520379ad6054df829e6c91a7
+:
+
+.gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
