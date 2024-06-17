@@ -15,18 +15,18 @@ else ()
 endif ()
 message(STATUS "Home Dir: ${HOME_DIR}")
 
-# Establecer la variable de toolchain de vcpkg
-set(CMAKE_TOOLCHAIN_FILE "${HOME_DIR}/.vcpkg-clion/vcpkg/scripts/buildsystems/vcpkg.cmake")
-
-# Verificar si el archivo toolchain existe
-if(EXISTS ${CMAKE_TOOLCHAIN_FILE})
-    message(STATUS "Using toolchain file: ${CMAKE_TOOLCHAIN_FILE}")
-else()
-    message(FATAL_ERROR "Toolchain file does not exist: ${CMAKE_TOOLCHAIN_FILE}")
-endif()
+## Establecer la variable de toolchain de vcpkg
+#set(CMAKE_TOOLCHAIN_FILE "${HOME_DIR}/.vcpkg-clion/vcpkg/scripts/buildsystems/vcpkg.cmake")
+#
+## Verificar si el archivo toolchain existe
+#if(EXISTS ${CMAKE_TOOLCHAIN_FILE})
+#    message(STATUS "Using toolchain file: ${CMAKE_TOOLCHAIN_FILE}")
+#else()
+#    message(FATAL_ERROR "Toolchain file does not exist: ${CMAKE_TOOLCHAIN_FILE}")
+#endif()
 
 # Establecer el triplete de vcpkg
-set(VCPKG_TARGET_TRIPLET "x64-mingw-dynamic")
+#set(VCPKG_TARGET_TRIPLET "x64-mingw-dynamic")
 
 # Definir la opción CATCH2_AMALGAMATED y habilitarla por defecto
 option(CATCH2_AMALGAMATED "Enable Catch2 amalgamated" ON)
