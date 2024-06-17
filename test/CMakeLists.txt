@@ -16,7 +16,7 @@ endif ()
 message(STATUS "Home Dir: ${HOME_DIR}")
 
 # Definir la opción CATCH2_AMALGAMATED y habilitarla por defecto
-option(CATCH2_AMALGAMATED "Enable Catch2 amalgamated" ON)
+option(CATCH2_AMALGAMATED "Enable Catch2 amalgamated" OFF)
 
 # Incluir el directorio de encabezados
 include_directories(../include)
