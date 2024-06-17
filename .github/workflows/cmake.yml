@@ -25,11 +25,9 @@ jobs:
         run: sudo apt-get update
 
       - name: Setup vcpkg
-        uses: microsoft/setup-vcpkg@v1
-        with:
-          # Use the latest commit from the vcpkg repository
-          vcpkgCommitId: 'master'
-          runVcpkgInstall: true
+        run: |
+          git clone https://github.com/microsoft/vcpkg.git
+          ./vcpkg/bootstrap-vcpkg.sh
 
       - name: Install Catch2
         run: ./vcpkg/vcpkg install catch2@3
