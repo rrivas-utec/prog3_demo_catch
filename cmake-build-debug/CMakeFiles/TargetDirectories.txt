@@ -1,6 +1,6 @@
-C:/Users/rudri/CLionProject/demo/cmake-build-debug/CMakeFiles/demo.dir
-C:/Users/rudri/CLionProject/demo/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/rudri/CLionProject/demo/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-C:/Users/rudri/CLionProject/demo/cmake-build-debug/test/CMakeFiles/demo_test.dir
-C:/Users/rudri/CLionProject/demo/cmake-build-debug/test/CMakeFiles/edit_cache.dir
-C:/Users/rudri/CLionProject/demo/cmake-build-debug/test/CMakeFiles/rebuild_cache.dir
+C:/Users/rrivas/CLionProjects/prog3_demo_catch/cmake-build-debug/CMakeFiles/demo.dir
+C:/Users/rrivas/CLionProjects/prog3_demo_catch/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/rrivas/CLionProjects/prog3_demo_catch/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/rrivas/CLionProjects/prog3_demo_catch/cmake-build-debug/test/CMakeFiles/demo_test.dir
+C:/Users/rrivas/CLionProjects/prog3_demo_catch/cmake-build-debug/test/CMakeFiles/edit_cache.dir
+C:/Users/rrivas/CLionProjects/prog3_demo_catch/cmake-build-debug/test/CMakeFiles/rebuild_cache.dir

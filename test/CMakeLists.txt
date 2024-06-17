@@ -29,7 +29,7 @@ endif()
 set(VCPKG_TARGET_TRIPLET "x64-mingw-dynamic")
 
 # Definir la opción CATCH2_AMALGAMATED y habilitarla por defecto
-option(CATCH2_AMALGAMATED "Enable Catch2 amalgamated" OFF)
+option(CATCH2_AMALGAMATED "Enable Catch2 amalgamated" ON)
 
 # Incluir el directorio de encabezados
 include_directories(../include)
