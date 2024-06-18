@@ -48,5 +48,8 @@ jobs:
       - name: Install cppcheck
         run: sudo apt-get install cppcheck
 
+      - name: Configure CMake cppcheck
+        run: cmake -DCMAKE_EXPORT_COMPILE_COMMANDS=ON .
+
       - name: Run cppcheck
-        run: cppcheck --enable=all --inconclusive --std=c++20 --force --error-exitcode=1 --suppress=unusedFunction -Iinclude -Itest source test/test_*
+        run: cppcheck --project=compile_commands.json
