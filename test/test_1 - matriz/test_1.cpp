@@ -7,7 +7,7 @@
 
 
 
-TEST_CASE( "Factorials are computed", "[factorial]" ) {
+TEST_CASE( "Suma de matrices", "[matrix]" ) {
   REQUIRE( factorial( 1) == 1 );
   REQUIRE( factorial( 2) == 2 );
   REQUIRE( factorial( 3) == 6 );
