@@ -10,5 +10,5 @@
 #else
 #include <catch2/catch_all.hpp>
 #endif
-
+#include "redirect_io.h"
 #endif//DEMO_TEST_H

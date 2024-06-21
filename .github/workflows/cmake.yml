@@ -41,9 +41,13 @@ jobs:
         # Build your program with the given configuration
         run: cmake --build ${{github.workspace}}/build --config ${{env.BUILD_TYPE}}
 
-      - name: Catch Test
+      - name: Catch Test - De Factorial
         working-directory: ${{github.workspace}}/build/test
-        run: ./demo_test --verbosity normal --list-tests --list-tags --success --reporter console --durations yes
+        run: ./demo_test [factorial] --verbosity high --list-tests --success --reporter console --durations yes
+
+      - name: Catch Test - De Demo
+        working-directory: ${{github.workspace}}/build/test
+        run: ./demo_test [demo] --verbosity high --list-tests --success --reporter console --durations yes
 
       - name: Install cppcheck
         run: sudo apt-get install cppcheck

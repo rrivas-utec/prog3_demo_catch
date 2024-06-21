@@ -5,6 +5,8 @@
 #include "demo.h"
 #include "test.h"
 
+
+
 TEST_CASE( "Factorials are computed", "[factorial]" ) {
   REQUIRE( factorial( 1) == 1 );
   REQUIRE( factorial( 2) == 2 );
